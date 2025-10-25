@@ -1,6 +1,7 @@
 import './App.css'
 import Header from './components/header/Header'
 import SectionPizza from './components/secrtionPizza/SectionPizza'
+import Menu from './components/menu/Menu'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
       <div className='container'>
         <Header />
         <SectionPizza />
+        <Menu />
       </div>
     </div>
   )
